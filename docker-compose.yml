@@ -19,7 +19,7 @@ x-shared_environment: &shared_environment
 
 services:
   app:
-    image: GrapeCI_Server:latest
+    image: GrapeCI.Server:latest
     build:
       context: .
     environment:

@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "GrapeCI_Server",
+    name: "GrapeCI.Server",
     platforms: [
        .macOS(.v10_15)
     ],

@@ -15,7 +15,7 @@ pipeline {
 
     stage('Lint') {
       steps {
-        sh 'mkdir sonar-reports'
+        sh 'mkdir -p sonar-reports'
         sh 'swiftlint lint --reporter json ${SOURCES} > sonar-reports/swiftlint.json'
       }
     }

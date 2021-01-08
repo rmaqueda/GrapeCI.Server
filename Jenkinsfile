@@ -5,7 +5,7 @@ pipeline {
   environment {
     XC_PROJECT= "GrapeCI.Server.xcodeproj"
     XC_SCHEME = "GrapeCI.Server-Package"
-    SOURCE_DIR = "./Sourcess"
+    SOURCE_DIR = "./Sources"
 
     SONAR_TOKEN = credentials('SONAR_TOKEN')
   }
@@ -48,6 +48,7 @@ pipeline {
       					recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']]
     	
     }
+
   }
 
 }

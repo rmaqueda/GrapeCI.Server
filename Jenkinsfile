@@ -4,6 +4,12 @@ pipeline {
 
   stages {
 
+    stage('Lint') {
+      steps {
+        sh 'swiftlint lint ./Sources'
+      }
+    }
+
 		stage('Test') {
 			steps {
 				sh 'swift test'

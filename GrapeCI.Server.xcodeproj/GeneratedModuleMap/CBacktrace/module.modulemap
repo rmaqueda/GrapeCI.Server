@@ -1,0 +1,4 @@
+module CBacktrace {
+    umbrella "/Users/ricardomaqueda/Repos/GrapeCI.Server/.build/checkouts/swift-backtrace/Sources/CBacktrace/include"
+    export *
+}

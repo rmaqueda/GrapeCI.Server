@@ -5,7 +5,6 @@ pipeline {
   environment {
     XC_PROJECT= "GrapeCI.Server.xcodeproj"
     XC_SCHEME = "GrapeCI.Server-Package"
-    SOURCE_DIR = "./Sources"
 
     SONAR_TOKEN = credentials('SONAR_TOKEN')
   }
@@ -15,7 +14,7 @@ pipeline {
 
     stage('Lint') {
       steps {
-        sh 'swiftlint lint ${SOURCE_DIR} > sonar-reports/swiftlint.txt'
+        sh 'swiftlint lint ./Sources > sonar-reports/swiftlint.txt'
       }
     }
 

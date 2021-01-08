@@ -1,0 +1,19 @@
+disabled_rules:
+  - multiple_closures_with_trailing_closure
+  - void_return
+
+trailing_whitespace:
+  ignores_empty_lines: true
+  ignores_comments: true
+
+line_length:
+  warning: 150
+  error: 200
+  ignores_comments: true
+  ignores_urls: true
+  ignores_function_declarations: true
+  ### works up until this config rule
+  ignores_interpolated_strings: true
+
+included:
+  - Sources

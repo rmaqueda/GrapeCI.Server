@@ -22,13 +22,13 @@ pipeline {
 
 		stage('Run unit test') {
 			steps {
-				sh 'xcodebuild -scheme ${XC_SCHEME} build test | xcpretty'
+				sh 'xcodebuild -project ${XC_PROJECT} -scheme ${XC_SCHEME} -derivedDataPath build/ -enableCodeCoverage YES clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty'
 			}
 		}
 
     stage('Sonar Cloud') {
       steps {
-        sh 'slather coverage -x --scheme ${XC_SCHEME} --output-directory sonar-reports ${XC_PROJECT}'
+        sh 'xccov-to-sonarqube-generic.sh build/Logs/Test/*.xcresult/ > sonar-reports/sonarqube-generic-coverage.xml'
 
         script {
           if (env.CHANGE_ID) {

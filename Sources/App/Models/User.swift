@@ -1,5 +1,6 @@
 import FluentSQLite
 import Vapor
+// swiftlint:disable identifier_name
 
 final class User: SQLiteModel {
     typealias Database = SQLiteDatabase
@@ -25,3 +26,5 @@ extension User: Content { }
 
 /// Allows `User` to be used as a dynamic parameter in route definitions.
 extension User: Parameter { }
+
+// swiftlint:enable identifier_name

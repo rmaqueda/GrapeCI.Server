@@ -2,7 +2,7 @@ import Vapor
 
 public func routes(_ router: Router) throws {
 
-    router.get { req in
+    router.get { _ in
         return "It works!"
     }
 

@@ -5083,28 +5083,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		"Console::Command::Product" /* Command.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Console::Console::Product" /* Console.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Console::Logging::Product" /* Logging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::Async::Product" /* Async.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Async.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::Bits::Product" /* Bits.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::COperatingSystem::Product" /* COperatingSystem.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = COperatingSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::Core::Product" /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::Debugging::Product" /* Debugging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Debugging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Crypto::CBase32::Product" /* CBase32.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CBase32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Crypto::CBcrypt::Product" /* CBcrypt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CBcrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Crypto::CCryptoOpenSSL::Product" /* CCryptoOpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CCryptoOpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Crypto::Crypto::Product" /* Crypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Crypto::Random::Product" /* Random.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Random.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"DatabaseKit::DatabaseKit::Product" /* DatabaseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DatabaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Fluent::Fluent::Product" /* Fluent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fluent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Fluent::FluentSQL::Product" /* FluentSQL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FluentSQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"FluentSQLite::FluentSQLite::Product" /* FluentSQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FluentSQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"GrapeCI.Server::App::Product" /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"GrapeCI.Server::AppTests::Product" /* AppTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		"GrapeCI.Server::Run::Product" /* Run */ = {isa = PBXFileReference; lastKnownFileType = text; path = Run; sourceTree = BUILT_PRODUCTS_DIR; };
-		"HTTP::HTTP::Product" /* HTTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Multipart::Multipart::Product" /* Multipart.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Multipart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Console::Command::Product" /* Command.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Console::Console::Product" /* Console.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Console::Logging::Product" /* Logging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Core::Async::Product" /* Async.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Async.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Core::Bits::Product" /* Bits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Core::COperatingSystem::Product" /* COperatingSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COperatingSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Core::Core::Product" /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Core::Debugging::Product" /* Debugging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Debugging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Crypto::CBase32::Product" /* CBase32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CBase32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Crypto::CBcrypt::Product" /* CBcrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CBcrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Crypto::CCryptoOpenSSL::Product" /* CCryptoOpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CCryptoOpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Crypto::Crypto::Product" /* Crypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Crypto::Random::Product" /* Random.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Random.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"DatabaseKit::DatabaseKit::Product" /* DatabaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DatabaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Fluent::Fluent::Product" /* Fluent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Fluent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Fluent::FluentSQL::Product" /* FluentSQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FluentSQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"FluentSQLite::FluentSQLite::Product" /* FluentSQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FluentSQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"GrapeCI.Server::App::Product" /* App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"GrapeCI.Server::AppTests::Product" /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"GrapeCI.Server::Run::Product" /* Run */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Run; sourceTree = BUILT_PRODUCTS_DIR; };
+		"HTTP::HTTP::Product" /* HTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Multipart::Multipart::Product" /* Multipart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Multipart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		OBJ_100 /* Pivot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pivot.swift; sourceTree = "<group>"; };
 		OBJ_101 /* SoftDeletable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftDeletable.swift; sourceTree = "<group>"; };
@@ -5797,30 +5797,30 @@
 		OBJ_97 /* Model+CRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+CRUD.swift"; sourceTree = "<group>"; };
 		OBJ_98 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		OBJ_99 /* ModelEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEvent.swift; sourceTree = "<group>"; };
-		"Routing::Routing::Product" /* Routing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Routing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SQL::SQL::Product" /* SQL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SQLite::SQLite::Product" /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Service::Service::Product" /* Service.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"TemplateKit::TemplateKit::Product" /* TemplateKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TemplateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"URLEncodedForm::URLEncodedForm::Product" /* URLEncodedForm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = URLEncodedForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Validation::Validation::Product" /* Validation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Validation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Vapor::Vapor::Product" /* Vapor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Vapor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"WebSocket::WebSocket::Product" /* WebSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio-ssl::CNIOOpenSSL::Product" /* CNIOOpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIOOpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio-ssl::NIOOpenSSL::Product" /* NIOOpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOOpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::CNIOAtomics::Product" /* CNIOAtomics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIOAtomics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::CNIODarwin::Product" /* CNIODarwin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIODarwin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::CNIOHTTPParser::Product" /* CNIOHTTPParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIOHTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::CNIOLinux::Product" /* CNIOLinux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIOLinux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIOSHA1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::CNIOZlib::Product" /* CNIOZlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIOZlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIO::Product" /* NIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIOConcurrencyHelpers::Product" /* NIOConcurrencyHelpers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOConcurrencyHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIOFoundationCompat::Product" /* NIOFoundationCompat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOFoundationCompat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIOHTTP1::Product" /* NIOHTTP1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOHTTP1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOPriorityQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIOTLS::Product" /* NIOTLS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOTLS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIOWebSocket::Product" /* NIOWebSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Routing::Routing::Product" /* Routing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Routing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SQL::SQL::Product" /* SQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SQLite::SQLite::Product" /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Service::Service::Product" /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"TemplateKit::TemplateKit::Product" /* TemplateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TemplateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"URLEncodedForm::URLEncodedForm::Product" /* URLEncodedForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = URLEncodedForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Validation::Validation::Product" /* Validation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Validation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Vapor::Vapor::Product" /* Vapor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Vapor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"WebSocket::WebSocket::Product" /* WebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio-ssl::CNIOOpenSSL::Product" /* CNIOOpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CNIOOpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio-ssl::NIOOpenSSL::Product" /* NIOOpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOOpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::CNIOAtomics::Product" /* CNIOAtomics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CNIOAtomics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::CNIODarwin::Product" /* CNIODarwin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CNIODarwin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::CNIOHTTPParser::Product" /* CNIOHTTPParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CNIOHTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::CNIOLinux::Product" /* CNIOLinux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CNIOLinux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CNIOSHA1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::CNIOZlib::Product" /* CNIOZlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CNIOZlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIO::Product" /* NIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIOConcurrencyHelpers::Product" /* NIOConcurrencyHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOConcurrencyHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIOFoundationCompat::Product" /* NIOFoundationCompat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOFoundationCompat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIOHTTP1::Product" /* NIOHTTP1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOHTTP1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOPriorityQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIOTLS::Product" /* NIOTLS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOTLS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIOWebSocket::Product" /* NIOWebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -7718,7 +7718,7 @@
 			path = Connection;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -7734,7 +7734,6 @@
 				OBJ_919 /* Jenkinsfile */,
 				OBJ_920 /* docker-compose.yml */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_50 /* Row */ = {
@@ -10551,7 +10550,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_867 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -14562,6 +14561,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libressl/3.1.3/include -I/usr/local/Cellar/libressl/3.1.3/include -I/usr/local/Cellar/libressl/3.1.3/include -Xcc -fmodule-map-file=$(SRCROOT)/GrapeCI.Server.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/GrapeCI.Server.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = AppTests;
 			};
@@ -14611,6 +14611,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libressl/3.1.3/include -I/usr/local/Cellar/libressl/3.1.3/include -I/usr/local/Cellar/libressl/3.1.3/include -Xcc -fmodule-map-file=$(SRCROOT)/GrapeCI.Server.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/GrapeCI.Server.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = AppTests;
 			};
@@ -14645,6 +14646,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Async;
 			};
@@ -14679,6 +14681,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Async;
 			};
@@ -14713,6 +14716,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Bits;
 			};
@@ -14747,6 +14751,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Bits;
 			};
@@ -14787,6 +14792,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CBase32;
 			};
 			name = Debug;
@@ -14826,6 +14832,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CBase32;
 			};
 			name = Release;
@@ -14865,6 +14872,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CBcrypt;
 			};
 			name = Debug;
@@ -14904,6 +14912,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CBcrypt;
 			};
 			name = Release;
@@ -14943,6 +14952,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CCryptoOpenSSL;
 			};
 			name = Debug;
@@ -14982,6 +14992,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CCryptoOpenSSL;
 			};
 			name = Release;
@@ -15014,6 +15025,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIOAtomics;
 			};
 			name = Debug;
@@ -15046,6 +15058,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIOAtomics;
 			};
 			name = Release;
@@ -15078,6 +15091,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIODarwin;
 			};
 			name = Debug;
@@ -15110,6 +15124,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIODarwin;
 			};
 			name = Release;
@@ -15142,6 +15157,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIOHTTPParser;
 			};
 			name = Debug;
@@ -15174,6 +15190,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIOHTTPParser;
 			};
 			name = Release;
@@ -15206,6 +15223,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIOLinux;
 			};
 			name = Debug;
@@ -15238,6 +15256,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIOLinux;
 			};
 			name = Release;
@@ -15277,6 +15296,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIOOpenSSL;
 			};
 			name = Debug;
@@ -15316,6 +15336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIOOpenSSL;
 			};
 			name = Release;
@@ -15348,6 +15369,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIOSHA1;
 			};
 			name = Debug;
@@ -15380,6 +15402,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIOSHA1;
 			};
 			name = Release;
@@ -15412,6 +15435,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIOZlib;
 			};
 			name = Debug;
@@ -15444,6 +15468,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				TARGET_NAME = CNIOZlib;
 			};
 			name = Release;
@@ -15467,6 +15492,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = COperatingSystem;
 			};
@@ -15491,6 +15517,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = COperatingSystem;
 			};
@@ -15525,6 +15552,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Command;
 			};
@@ -15559,6 +15587,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Command;
 			};
@@ -15593,6 +15622,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Console;
 			};
@@ -15627,6 +15657,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Console;
 			};
@@ -15637,6 +15668,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -15646,6 +15678,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -15679,6 +15712,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Core;
 			};
@@ -15713,6 +15747,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Core;
 			};
@@ -15723,6 +15758,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.1.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -15732,6 +15768,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.1.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -15779,6 +15816,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Crypto;
 			};
@@ -15827,6 +15865,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Crypto;
 			};
@@ -15837,6 +15876,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -15846,6 +15886,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -15879,6 +15920,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = DatabaseKit;
 			};
@@ -15913,6 +15955,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = DatabaseKit;
 			};
@@ -15923,6 +15966,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -15932,6 +15976,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -15955,6 +16000,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Debugging;
 			};
@@ -15979,6 +16025,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Debugging;
 			};
@@ -16013,6 +16060,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Fluent;
 			};
@@ -16047,6 +16095,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Fluent;
 			};
@@ -16057,6 +16106,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -16066,6 +16116,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -16099,6 +16150,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = FluentSQL;
 			};
@@ -16133,6 +16185,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = FluentSQL;
 			};
@@ -16167,6 +16220,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = FluentSQLite;
 			};
@@ -16201,6 +16255,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = FluentSQLite;
 			};
@@ -16211,6 +16266,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -16220,6 +16276,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -16229,6 +16286,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -16238,6 +16296,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -16245,12 +16304,14 @@
 		OBJ_1857 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SWIFT_SUPPRESS_WARNINGS = YES;
 			};
 			name = Debug;
 		};
 		OBJ_1858 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SWIFT_SUPPRESS_WARNINGS = YES;
 			};
 			name = Release;
 		};
@@ -16297,6 +16358,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = HTTP;
 			};
@@ -16345,6 +16407,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = HTTP;
 			};
@@ -16355,6 +16418,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -16364,6 +16428,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -16397,6 +16462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Logging;
 			};
@@ -16431,6 +16497,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Logging;
 			};
@@ -16465,6 +16532,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Multipart;
 			};
@@ -16499,6 +16567,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Multipart;
 			};
@@ -16509,6 +16578,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -16518,6 +16588,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -16551,6 +16622,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIO;
 			};
@@ -16585,6 +16657,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIO;
 			};
@@ -16616,6 +16689,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOConcurrencyHelpers;
 			};
@@ -16647,6 +16721,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOConcurrencyHelpers;
 			};
@@ -16681,6 +16756,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOFoundationCompat;
 			};
@@ -16715,6 +16791,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOFoundationCompat;
 			};
@@ -16751,6 +16828,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOHTTP1;
 			};
@@ -16787,6 +16865,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOHTTP1;
 			};
@@ -16833,6 +16912,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOOpenSSL;
 			};
@@ -16879,6 +16959,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOOpenSSL;
 			};
@@ -16909,6 +16990,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOPriorityQueue;
 			};
@@ -16939,6 +17021,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOPriorityQueue;
 			};
@@ -16973,6 +17056,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOTLS;
 			};
@@ -17007,6 +17091,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOTLS;
 			};
@@ -17043,6 +17128,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOWebSocket;
 			};
@@ -17079,6 +17165,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = NIOWebSocket;
 			};
@@ -17123,6 +17210,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Random;
 			};
@@ -17167,6 +17255,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Random;
 			};
@@ -17201,6 +17290,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Routing;
 			};
@@ -17235,6 +17325,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Routing;
 			};
@@ -17245,6 +17336,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -17254,6 +17346,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -17302,6 +17395,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Run;
 			};
@@ -17351,6 +17445,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Run;
 			};
@@ -17385,6 +17480,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = SQL;
 			};
@@ -17419,6 +17515,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = SQL;
 			};
@@ -17429,6 +17526,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.1.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -17438,6 +17536,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.1.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -17471,6 +17570,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = SQLite;
 			};
@@ -17505,6 +17605,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = SQLite;
 			};
@@ -17515,6 +17616,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -17524,6 +17626,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -17557,6 +17660,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Service;
 			};
@@ -17591,6 +17695,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Service;
 			};
@@ -17601,6 +17706,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -17610,6 +17716,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -17643,6 +17750,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = TemplateKit;
 			};
@@ -17677,6 +17785,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = TemplateKit;
 			};
@@ -17687,6 +17796,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.1.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -17696,6 +17806,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.1.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -17729,6 +17840,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = URLEncodedForm;
 			};
@@ -17763,6 +17875,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = URLEncodedForm;
 			};
@@ -17773,6 +17886,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.1.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -17782,6 +17896,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.1.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -17815,6 +17930,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Validation;
 			};
@@ -17849,6 +17965,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Validation;
 			};
@@ -17859,6 +17976,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -17868,6 +17986,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -17919,6 +18038,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Vapor;
 			};
@@ -17971,6 +18091,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Vapor;
 			};
@@ -17979,12 +18100,14 @@
 		OBJ_2990 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SWIFT_SUPPRESS_WARNINGS = YES;
 			};
 			name = Debug;
 		};
 		OBJ_2991 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SWIFT_SUPPRESS_WARNINGS = YES;
 			};
 			name = Release;
 		};
@@ -17993,6 +18116,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -18002,6 +18126,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -18021,7 +18146,7 @@
 					"SWIFT_PACKAGE=1",
 					"DEBUG=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -18029,6 +18154,7 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SUPPRESS_WARNINGS = NO;
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -18080,6 +18206,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = WebSocket;
 			};
@@ -18132,6 +18259,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = WebSocket;
 			};
@@ -18142,6 +18270,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.1.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -18151,6 +18280,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.1.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -18160,6 +18290,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -18169,6 +18300,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -18177,7 +18309,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -18186,7 +18320,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.0.0";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -18204,13 +18340,14 @@
 					"$(inherited)",
 					"SWIFT_PACKAGE=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SUPPRESS_WARNINGS = NO;
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
@@ -18262,6 +18399,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = NO;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = App;
 			};
@@ -18314,6 +18452,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SUPPRESS_WARNINGS = NO;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = App;
 			};

@@ -8,7 +8,7 @@ public func app(_ env: Environment) throws -> Application {
     services.register(NIOServerConfig.default(hostname: "127.0.0.1", port: 8000))
 
     try configure(&config, &env, &services)
-    let app = try Application(config: config, environment: env, services: services)    
+    let app = try Application(config: config, environment: env, services: services)
     try boot(app)
     return app
 }

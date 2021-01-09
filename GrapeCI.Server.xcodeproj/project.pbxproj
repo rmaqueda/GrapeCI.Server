@@ -5783,8 +5783,6 @@
 		OBJ_89 /* Migration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migration.swift; sourceTree = "<group>"; };
 		OBJ_90 /* MigrationConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationConfig.swift; sourceTree = "<group>"; };
 		OBJ_91 /* MigrationLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationLog.swift; sourceTree = "<group>"; };
-		OBJ_914 /* sonar-reports */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "sonar-reports"; sourceTree = SOURCE_ROOT; };
-		OBJ_915 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = SOURCE_ROOT; };
 		OBJ_916 /* Dockerfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dockerfile; sourceTree = "<group>"; };
 		OBJ_917 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_918 /* sonar-project.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sonar-project.properties"; sourceTree = "<group>"; };
@@ -7726,8 +7724,6 @@
 				OBJ_19 /* Tests */,
 				OBJ_22 /* Dependencies */,
 				OBJ_867 /* Products */,
-				OBJ_914 /* sonar-reports */,
-				OBJ_915 /* build */,
 				OBJ_916 /* Dockerfile */,
 				OBJ_917 /* README.md */,
 				OBJ_918 /* sonar-project.properties */,

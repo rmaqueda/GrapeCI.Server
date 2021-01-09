@@ -1,11 +1,13 @@
 import Vapor
 
-func routes(_ app: Application) throws {
-    app.get { req in
+public func routes(_ router: Router) throws {
+
+    router.get { req in
         return "It works!"
     }
 
-    app.get("hello") { req -> String in
-        return "Hello, world!"
-    }
+    let userController = UserController()
+    router.get("users", use: userController.index)
+    router.post("users", use: userController.create)
+    router.delete("users", User.parameter, use: userController.delete)
 }

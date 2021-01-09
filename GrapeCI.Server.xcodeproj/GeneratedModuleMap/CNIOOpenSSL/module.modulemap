@@ -1,0 +1,4 @@
+module CNIOOpenSSL {
+    umbrella "/Users/ricardomaqueda/Repos/GrapeCI.Server/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include"
+    export *
+}

@@ -6757,6 +6757,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C73D53325AAE09200D7365F /* Jenkinsfile */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; tabWidth = 2; };
 		"GrapeCI.Server::App::Product" /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"GrapeCI.Server::AppTests::Product" /* AppTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"GrapeCI.Server::Run::Product" /* Run */ = {isa = PBXFileReference; lastKnownFileType = text; path = Run; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -14564,6 +14565,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
+				8C73D53325AAE09200D7365F /* Jenkinsfile */,
 				OBJ_7 /* Sources */,
 				OBJ_28 /* Tests */,
 				OBJ_31 /* Dependencies */,

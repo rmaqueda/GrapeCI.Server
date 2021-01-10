@@ -33,7 +33,7 @@ pipeline {
             -scheme ${XC_SCHEME} \
             -derivedDataPath build \
             -enableCodeCoverage YES \
-            clean build test | xcpretty'
+            clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty --test'
       }
     }
 
@@ -55,11 +55,11 @@ pipeline {
 
   post {
     always {
-      cleanWs()
+      //cleanWs()
     
-    	emailext body: '''${SCRIPT, template="build-report.groovy"}''',
-                subject: "[Jenkins FP] ${JOB_NAME}",
-                recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']]
+      emailext body: '''${SCRIPT, template="build-report.groovy"}''',
+              subject: "[Jenkins FP] ${JOB_NAME}",
+              recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']]
     }
   }
 

@@ -25,14 +25,14 @@ pipeline {
       }
     }
 
-    stage('Run unit test') {
+    stage('Unit tests') {
       steps {
         sh 'xcodebuild \
             -project ${XC_PROJECT} \
             -scheme ${XC_SCHEME} \
             -derivedDataPath build \
             -enableCodeCoverage YES \
-            clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty --test'
+            build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty --test'
       }
     }
 
@@ -54,7 +54,7 @@ pipeline {
 
   post {
     always {
-      cleanWs()
+      //cleanWs()
     
       emailext body: '''${SCRIPT, template="build-report.groovy"}''',
               subject: "[Jenkins FP] ${JOB_NAME}",

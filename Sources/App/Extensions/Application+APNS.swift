@@ -2,22 +2,18 @@ import Vapor
 import APNS
 
 extension Application {
-    func configurePush() throws {
-        let appleECP8PrivateKey =
-            """
-        -----BEGIN PRIVATE KEY-----
-
-        -----END PRIVATE KEY-----
-        """
+    
+    func configurePush(privateKey: Data) throws {
         
         apns.configuration = try .init(
             authenticationMethod: .jwt(
-                key: .private(pem: Data(appleECP8PrivateKey.utf8)),
+                key: .private(pem: privateKey),
                 keyIdentifier: "",
                 teamIdentifier: ""
             ),
             topic: "com.raywenderlich.airplanespotter",
-            environment: .sandbox //Change environment in release
+            environment: .sandbox
         )
     }
+    
 }

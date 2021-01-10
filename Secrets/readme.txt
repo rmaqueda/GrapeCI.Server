@@ -1,1 +1,2 @@
-Copy here the Apple Push Certificate with .p8 extension
+Copy here the Apple Push Certificate with filename: push_certificate.p8
+

@@ -10101,6 +10101,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C73D5D625AAE9C700D7365F /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Secrets;
+			sourceTree = "<group>";
+		};
 		OBJ_1005 /* Request */ = {
 			isa = PBXGroup;
 			children = (
@@ -15287,6 +15294,7 @@
 		OBJ_8 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				8C73D5D625AAE9C700D7365F /* Secrets */,
 				OBJ_9 /* Controllers */,
 				OBJ_13 /* Extensions */,
 				OBJ_16 /* Migrations */,

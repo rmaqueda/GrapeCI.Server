@@ -8,10 +8,10 @@ extension Application {
         apns.configuration = try .init(
             authenticationMethod: .jwt(
                 key: .private(pem: privateKey),
-                keyIdentifier: "",
-                teamIdentifier: ""
+                keyIdentifier: "S6Z37UDA5H",
+                teamIdentifier: "FZ32CY9FLM"
             ),
-            topic: "com.raywenderlich.airplanespotter",
+            topic: "es.molestudio.GrapeCI",
             environment: .sandbox
         )
     }

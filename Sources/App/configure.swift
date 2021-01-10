@@ -13,5 +13,6 @@ public func configure(_ app: Application) throws {
     let certificatePath = app.directory.workingDirectory + "Secrets/push_certificate.p8"
     let certificateURL = URL(fileURLWithPath: certificatePath)
     let keyData = try Data(contentsOf: certificateURL)
+    
     try app.configurePush(privateKey: keyData)
 }

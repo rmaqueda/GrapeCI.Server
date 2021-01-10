@@ -5,7 +5,6 @@ pipeline {
   environment {
     XC_PROJECT= "GrapeCI.Server.xcodeproj"
     XC_SCHEME = "GrapeCI.Server-Package"
-    SOURCES = "Sources"
 
     SONAR_TOKEN = credentials('SONAR_TOKEN')
   }
@@ -22,7 +21,7 @@ pipeline {
     stage('Lint') {
       steps {
         sh 'mkdir -p sonar-reports'
-        sh 'swiftlint lint --reporter json ${SOURCES} > sonar-reports/swiftlint.json'
+        sh 'swiftlint lint --reporter json > sonar-reports/swiftlint.json'
       }
     }
 
@@ -55,7 +54,7 @@ pipeline {
 
   post {
     always {
-      //cleanWs()
+      cleanWs()
     
       emailext body: '''${SCRIPT, template="build-report.groovy"}''',
               subject: "[Jenkins FP] ${JOB_NAME}",

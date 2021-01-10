@@ -54,8 +54,6 @@ pipeline {
 
   post {
     always {
-      //cleanWs()
-    
       emailext body: '''${SCRIPT, template="build-report.groovy"}''',
               subject: "[Jenkins FP] ${JOB_NAME}",
               recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']]
